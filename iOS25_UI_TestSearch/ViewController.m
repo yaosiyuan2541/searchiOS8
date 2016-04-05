@@ -8,7 +8,7 @@
 
 #import "ViewController.h"
 
-@interface ViewController ()<UITableViewDelegate,UITableViewDataSource,UISearchDisplayDelegate,UISearchResultsUpdating>
+@interface ViewController ()<UITableViewDelegate,UITableViewDataSource,UISearchResultsUpdating>
 {
     UISearchController * searchController1;
     UITableView * mytableView;
